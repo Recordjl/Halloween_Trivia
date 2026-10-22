@@ -1,7 +1,10 @@
 """Haunted Trivia: a Kahoot-style Halloween quiz server (Python standard library only).
 
-Run:  py server.py   then open http://localhost:8000/host.html on the big screen.
-Players join from their phones at http://<this computer's IP>:8000
+Live (hosted on Render): open https://haunted-trivia.onrender.com/host.html on the big screen.
+Players join from their phones at https://haunted-trivia.onrender.com
+
+Local testing only: py server.py, then open http://localhost:8000/host.html
+(players on the same network join at http://<this computer's IP>:8000)
 """
 import json
 import os
